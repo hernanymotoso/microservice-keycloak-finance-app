@@ -1,0 +1,8 @@
+POST http://localhost:8080/auth/realms/Finance-app/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=nest
+&client_secret=11a9e66d-3f33-43f2-91b3-93c4ad735a48
+&grant_type=password
+&username=user1@user.com
+&password=123456
